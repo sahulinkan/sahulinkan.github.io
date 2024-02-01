@@ -1,14 +1,15 @@
 html,body{
     height: 100%;
-    background-color: rgb(34, 172, 172);
+    background-color: rgb(37, 194, 181);
 }
 
+.container{
+    background-color: rgb(18, 192, 192);
+}
 .empcard{
     min-height: 80vh;
 }
-.container-fluid{
-    min-height: 100%;
-}
+
 .errors{
     color:red;
     font-weight: bold;

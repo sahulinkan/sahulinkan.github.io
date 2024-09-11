@@ -3,7 +3,7 @@ import React from "react";
 const Home = () => {
   return (
     <>
-      <div className="flex my-5 py-8 justify-evenly bg-white">
+      <div className="flex my-5 py-8 justify-evenly bg-white  sm:flex sm:flex-col sm:items-center">
         <div className="leftbox flex justify-center">
           <img
             src="https://avatars.githubusercontent.com/u/32588495?v=4"

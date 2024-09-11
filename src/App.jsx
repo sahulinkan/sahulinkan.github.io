@@ -1,41 +1,18 @@
-import { useState } from 'react'
-import Home from './components/Home/Home'
-import Layout from './Layout'
-import { createBrowserRouter,RouterProvider } from 'react-router-dom'
-import About from './components/About/About'
-import Contact from './components/Contact/Contact'
-import Github from './components/Github/Github'
-
+// App.js
+import React from 'react';
+import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
+import Home from  './components/Home/Home'
+import Footer from './components/Footer/Footer'
 function App() {
-  const route = createBrowserRouter([
-    {
-      path:"/",
-      element: <Layout/>,
-      children:[
-        {
-          path:"",
-          element:<Home/>
-        },
-        {
-          path:"about",
-          element:<About/>
-        },
-        {
-          path:"contact",
-          element:<Contact/>
-        },
-        {
-          path:"github",
-          element:<Github/>
-        }
-      ]
-    }
-  ])
   return (
-    <>
-      <RouterProvider router={route}/>       
-    </>
-  )
+    <Router>
+      <Routes>
+        <Route path="/" element={<Home/>} />
+      </Routes>
+      
+    </Router>
+    
+  );
 }
 
-export default App
+export default App;

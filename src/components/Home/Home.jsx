@@ -81,7 +81,7 @@ const HomePage = () => {
         <div className="bg-black py-10 h-[40vh] text-center">
           <h1 class="text-white text-5xl text-center">Get in Touch</h1>
           <a href="mailto:sahulinkan7@gmail.com">
-            <h1 className="text-white py-2 my-3">sahulinkan7@gmail.com</h1>
+            <h1 className="text-white py-2 my-3">linkansahu.official@gmail.com</h1>
           </a>
         </div>
       </Element>
